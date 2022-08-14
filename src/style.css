@@ -24,6 +24,8 @@ html{
     grid-template-rows: 1fr 9fr;
     background-color:rgb(35, 75, 206);
     align-items: start;
+    padding:10px;
+    color:white;
 }
 
 .header{
@@ -31,11 +33,12 @@ html{
     grid-column: 2 / 3;
     background-color: white;
     box-shadow: 0 3px 3px rgb(0 0 0 / 0.5);
+    padding:10px;
 }
 
-.header-container{
+.headerContainer{
     display:grid;  
-    grid-template-rows: 100px 150px;
+    grid-template-rows: 100px 10px;
 }
 
 .main{
@@ -44,5 +47,24 @@ html{
     background-color: rgb(223, 223, 223);
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding:20px;
+    padding:10px;
+}
+
+.projectTodos{
+    background-color: white;
+    display:flex;
+    padding:10px;
+    gap:5px;
+
+
+}
+
+.todoDate{
+    display: flex; 
+    justify-content: flex-end;
+
+}
+
+.todoTitle{
+    flex:1;
 }
